@@ -13,6 +13,7 @@ function App() {
           <Route path='/' element={<Login/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/register' element={<Register/>}/>
+          {/* <Route path='/' element={<Home/>}/> */}
         </Routes>
         </BrowserRouter>
     </div>
